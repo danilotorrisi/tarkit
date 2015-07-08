@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Dalton Cherry" => "daltoniam@gmail.com" }
   s.source       = { :git => "https://github.com/daltoniam/tarkit.git", :tag => "#{s.version}" }
   s.social_media_url = 'http://twitter.com/daltoniam'
+  s.libraries    = "z"
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
   s.source_files = '*.{h,m}'
